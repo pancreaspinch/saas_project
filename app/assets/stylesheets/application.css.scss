@@ -16,9 +16,11 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
  
+//Fonts 
 h1,h2,h3{
     font-family: 'Lato', sans-serif;
 }
+
 
 .navbar,.home-popup{
     //Gradient found at https://uigradients.com/#AzurLane
@@ -27,6 +29,23 @@ h1,h2,h3{
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+//Nav Styles
+.navbar{
+    border : none;
+}
+
+.navbar-default .navbar-brand ,
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    //nested selector. can only be used with sass. 
+    &:hover{  
+    color: white;
+    opacity: 0.75;
+    }
+}
+
+//Homepage Styles
 .home-popup {
     color: white;
     margin-top: -20px;
@@ -34,6 +53,5 @@ h1,h2,h3{
     padding-bottom: 100px;
 }
 
-.navbar{
-    border : none;
-}
+
+
