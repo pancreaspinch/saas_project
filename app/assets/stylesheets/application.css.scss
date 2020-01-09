@@ -37,6 +37,11 @@ h1,h2,h3{
     border : none;
 }
 
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
 .navbar-default .navbar-brand ,
 .navbar-default .navbar-nav > li > a {
     color: white;
@@ -44,6 +49,17 @@ h1,h2,h3{
     &:hover{  
     color: white;
     opacity: 0.75;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+      background-color: #7F7FD5;
     }
 }
 
