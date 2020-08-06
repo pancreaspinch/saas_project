@@ -24,6 +24,10 @@ gem 'jbuilder', '2.5.0'
 # gem 'bcrypt', '3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# Use Stripe for payment processing
+gem 'stripe', '1.48.0'
+# Use Figaro for ENV variables
+gem 'figaro', '1.1.1'
 # Use Bootstrap library for UI and layout
 gem 'bootstrap-sass', '3.3.7'
 # Use Font Awesome sass gem for adding icons
