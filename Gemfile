@@ -29,7 +29,7 @@ gem 'stripe', '1.48.0'
 # Use Figaro for ENV variables
 gem 'figaro', '1.1.1'
 # Use Bootstrap library for UI and layout
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '~> 5.12.0'
 # Use devise for user authentication
