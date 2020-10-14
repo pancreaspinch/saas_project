@@ -24,6 +24,8 @@ gem 'jbuilder', '2.5.0'
 # gem 'bcrypt', '3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# Use paperclip for image upload
+gem 'paperclip', github: 'thoughtbot/paperclip'
 # Use Stripe for payment processing
 gem 'stripe', '1.48.0'
 # Use Figaro for ENV variables
